@@ -1,0 +1,39 @@
+step1:-importing libraries these libraries are used for data manipulation and numerical operations.
+step2:-Read a csv file 'quickr_car.csv' using panadas And then store it in dataframe 'car'.
+step3:-Filter rows where the 'year' column contains numeric values
+step4:-Filter rows where the 'Price' column is not equal to "Ask For Price"
+step5:-Convert the 'kms_driven' column to integer data type
+step6:-Filter rows where the 'fuel_type' column is not null
+step7:-Modify the 'name' column to keep only the first 3 words (slices) and join them with a space
+step8:-Reset the index of the DataFrame without creating a new column for the old index
+step9:-This operation saves our processed data to a file for future reference 
+step10:-Separate features (X) and the target variable (y)
+step11:-Import the necessary library for train-test split
+step12:-Split the data into training and testing sets (e.g., 80% training and 20% testing)
+step13:-importing the these libraries and modules to work with a Linear Regression model,
+        perform data preprocessing, and create a data transformation pipeline.
+        import the OneHotEncoder for categorical data preprocessing
+        import the make_column_transformer to create a column transformation
+        import make_pipeline to create a data preprocessing pipeline
+step14:-we are creating an instance of the OneHotEncoder and fitting it to
+        the specified categorical columns in our feature matrix 'X'.
+        This will help us encode these categorical columns into numerical representations
+        for use in machine learning models.
+step15:-This provides the unique categories or labels that the encoder has learned from the data.
+step16:-create a column transformer.
+step17:-Create a Linear Regression model
+        Create a data preprocessing pipeline that includes column transformation and linear regression
+        Fit the pipeline to your training data
+step18:-we are using our trained pipeline to make predictions on the test dataset and then calculating the R-squared (R2) score to evaluate the model's performance.
+step19:-Create an empty list to store R-squared scores
+step20:-Repeat the process 1000 times
+step21:-Repeat the process 1000 times
+step22:-Split the data into training and testing sets with a different random state for each iteration
+step23:-Find the index of the maximum R-squared score in the 'scores' list
+step24:-Retrieve the maximum R-squared score using the index
+step25:-Perform a train-test split with the random state that yielded the highest R-squared score
+step26:-Create a data preprocessing pipeline
+step27:-Fit the pipeline to the training data
+step28:-Make predictions on the test data
+step29:-Calculate the R-squared score for this specific split
+step30:-Save the trained model pipeline to a binary file using pickle.

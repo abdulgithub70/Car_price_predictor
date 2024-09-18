@@ -1,0 +1,13 @@
+Regression is a statistical method used in machine learning, statistics, and data analysis to model
+The relationship between a dependent variable (also known as the target) and one or more independent
+variables (predictors or features). The goal of regression analysis is to understand and quantify
+the influence of independent variables on the dependent variable.
+
+Linear Regression: Linear regression models the relationship between the dependent variable and one or more
+independent variables using a linear equation. It is commonly used for predicting numerical values and is one of
+the most straightforward regression techniques.
+    It assumes a linear relationship between the independent variables and the dependent variable.
+    In simple linear regression, you have one independent variable and one dependent variable
+    The goal is to find the values of minimize the difference between the observed values and
+    the values predicted by the linear equation.
+
